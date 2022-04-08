@@ -1,0 +1,137 @@
+*{
+	list-style-type: none;
+}
+
+#logo img{
+    margin: 40px auto;
+    display: block;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: auto 10px;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  -webkit-appearance: flex;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+}
+.botones{
+    display: inline-block;
+    background-color: #ff2c13;
+    color: white;
+    list-style: none;
+    margin: 5px;
+    padding: 20px;
+
+}
+
+li.botones {
+	color: white;
+	width: 17%;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 2px;
+	background-color: #ff2c13;
+	font-family: 'h1', cursive;
+}
+
+nav li:hover{
+	background-color: #ffd0ca;
+	color: black;
+	outline: #ff2c13 solid 2px;
+}
+
+#top h1, h2{
+	text-align: center;
+}
+
+#top h1{
+	font-family: 'h1', cursive;
+}
+
+#top h2{
+	font-family: 'h2', cursive;
+}
+
+#top ul{
+	display: flex;
+	flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+}
+
+#top li{
+	padding: 10px;
+	margin: 20px 10px;
+	text-align: justify;
+	width: 300px;
+	font-family: 'textos', sans-serif;
+}
+
+#top img{
+	display: block;
+	margin: auto;
+ 	width: 150px;
+ 	height: 80px;
+ 	border-radius: 50%;
+ 	-moz-border-radius: 50%;
+ 	-webkit-border-radius: 50%;
+}
+
+#middle{
+	background-color: #ffd0ca;
+	margin: 20px 10px;
+	display: flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+ 	-moz-flex-direction: row;
+}
+
+article{
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+	text-align: justify;
+	font-family: 'textos', sans-serif;
+}
+
+.articulo{
+	font-family: 'articulo', sans-serif;
+}
+
+#izq{
+	width: 600px;
+	padding: 5px;
+	padding-right: 10px;
+}
+
+#izq li{
+	font-size: 20px;
+	list-style-type: square;
+	font-family: 'h2', cursive;
+}
+
+#der{
+	padding: 5px;
+	width: 600px;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'h2', cursive;
+}
+
+
+footer{
+	background-color: #ff2c13;
+	color: white;
+	line-height: 25px;
+	padding: 10px;
+	margin: 20px 10px;
+	text-align: center;
+	font-family: 'textos', sans-serif;
+}
+
